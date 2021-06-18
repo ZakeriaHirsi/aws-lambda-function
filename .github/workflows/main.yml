@@ -26,8 +26,8 @@ jobs:
       - name: default deploy
         uses: appleboy/lambda-action@master
         with:
-          aws_access_key_id: ${{ env.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          aws_access_key_id: AKIAY62HL57LIGR6P6X5
+          aws_secret_access_key: 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
           aws_region: eu-west-1
           function_name: my-function
           zip_file: bundle.zip
